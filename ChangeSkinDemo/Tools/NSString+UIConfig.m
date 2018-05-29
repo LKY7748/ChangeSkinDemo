@@ -16,4 +16,17 @@
     return result;
 }
 
+- (void)setStringWithKey:(NSString *)key
+{
+    NSString *cachesPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject] ;
+    NSString *infoFilePath = [cachesPath stringByAppendingPathComponent:key];
+    [self writeToFile:infoFilePath atomically:YES encoding:NSUTF8StringEncoding error:nil];
+}
+
++ (NSDictionary *)getDicWithKey:(NSString *)key
+{
+    NSString *infoFilePath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)lastObject] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@",key]];
+    return [NSDictionary dictionaryWithContentsOfFile:infoFilePath];
+}
+
 @end

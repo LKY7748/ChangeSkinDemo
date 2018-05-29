@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBC89B911F8DE36C00E786B2 /* UITabBarItem+UIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC89B901F8DE36C00E786B2 /* UITabBarItem+UIConfig.m */; };
 		CBE34E3A1F8B066200CFA809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E391F8B066200CFA809 /* main.m */; };
 		CBE34E3D1F8B066200CFA809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E3C1F8B066200CFA809 /* AppDelegate.m */; };
 		CBE34E401F8B066200CFA809 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E3F1F8B066200CFA809 /* ViewController.m */; };
@@ -15,6 +16,15 @@
 		CBE34E481F8B066300CFA809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE34E461F8B066300CFA809 /* LaunchScreen.storyboard */; };
 		CBE34E531F8B066300CFA809 /* ChangeSkinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E521F8B066300CFA809 /* ChangeSkinDemoTests.m */; };
 		CBE34E5E1F8B066300CFA809 /* ChangeSkinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E5D1F8B066300CFA809 /* ChangeSkinDemoUITests.m */; };
+		CBE34E941F8B48C500CFA809 /* NSString+UIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E871F8B48C500CFA809 /* NSString+UIConfig.m */; };
+		CBE34E951F8B48C500CFA809 /* UIColor+UIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E891F8B48C500CFA809 /* UIColor+UIConfig.m */; };
+		CBE34E961F8B48C500CFA809 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E8C1F8B48C500CFA809 /* OneViewController.m */; };
+		CBE34E971F8B48C500CFA809 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E8E1F8B48C500CFA809 /* ThreeViewController.m */; };
+		CBE34E981F8B48C500CFA809 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E901F8B48C500CFA809 /* TwoViewController.m */; };
+		CBE34E991F8B48C500CFA809 /* ChangeSkinManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE34E931F8B48C500CFA809 /* ChangeSkinManager.m */; };
+		CBEB5DEA1F8C649D000D5134 /* UIView+UIConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB5DE91F8C649D000D5134 /* UIView+UIConfig.m */; };
+		CBEB5DF31F8CD96F000D5134 /* DeallocBlockExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB5DF01F8CD96F000D5134 /* DeallocBlockExecutor.m */; };
+		CBEB5DF41F8CD96F000D5134 /* NSObject+DeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEB5DF21F8CD96F000D5134 /* NSObject+DeallocBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBC89B8F1F8DE36C00E786B2 /* UITabBarItem+UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarItem+UIConfig.h"; sourceTree = "<group>"; };
+		CBC89B901F8DE36C00E786B2 /* UITabBarItem+UIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarItem+UIConfig.m"; sourceTree = "<group>"; };
 		CBE34E351F8B066200CFA809 /* ChangeSkinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeSkinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE34E391F8B066200CFA809 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CBE34E3B1F8B066200CFA809 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,25 @@
 		CBE34E591F8B066300CFA809 /* ChangeSkinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeSkinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE34E5D1F8B066300CFA809 /* ChangeSkinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeSkinDemoUITests.m; sourceTree = "<group>"; };
 		CBE34E5F1F8B066300CFA809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE34E861F8B48C500CFA809 /* NSString+UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+UIConfig.h"; sourceTree = "<group>"; };
+		CBE34E871F8B48C500CFA809 /* NSString+UIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+UIConfig.m"; sourceTree = "<group>"; };
+		CBE34E881F8B48C500CFA809 /* UIColor+UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+UIConfig.h"; sourceTree = "<group>"; };
+		CBE34E891F8B48C500CFA809 /* UIColor+UIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+UIConfig.m"; sourceTree = "<group>"; };
+		CBE34E8B1F8B48C500CFA809 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		CBE34E8C1F8B48C500CFA809 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		CBE34E8D1F8B48C500CFA809 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		CBE34E8E1F8B48C500CFA809 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		CBE34E8F1F8B48C500CFA809 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		CBE34E901F8B48C500CFA809 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		CBE34E921F8B48C500CFA809 /* ChangeSkinManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeSkinManager.h; sourceTree = "<group>"; };
+		CBE34E931F8B48C500CFA809 /* ChangeSkinManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeSkinManager.m; sourceTree = "<group>"; };
+		CBEB5DE81F8C649D000D5134 /* UIView+UIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIConfig.h"; sourceTree = "<group>"; };
+		CBEB5DE91F8C649D000D5134 /* UIView+UIConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIConfig.m"; sourceTree = "<group>"; };
+		CBEB5DEE1F8CB7CE000D5134 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CBEB5DEF1F8CD96F000D5134 /* DeallocBlockExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeallocBlockExecutor.h; sourceTree = "<group>"; };
+		CBEB5DF01F8CD96F000D5134 /* DeallocBlockExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeallocBlockExecutor.m; sourceTree = "<group>"; };
+		CBEB5DF11F8CD96F000D5134 /* NSObject+DeallocBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DeallocBlock.h"; sourceTree = "<group>"; };
+		CBEB5DF21F8CD96F000D5134 /* NSObject+DeallocBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DeallocBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +132,10 @@
 		CBE34E371F8B066200CFA809 /* ChangeSkinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CBE34E841F8B48C500CFA809 /* Resource */,
+				CBE34E851F8B48C500CFA809 /* Tools */,
+				CBE34E8A1F8B48C500CFA809 /* ViewControllers */,
+				CBE34E911F8B48C500CFA809 /* ViewModels */,
 				CBE34E3B1F8B066200CFA809 /* AppDelegate.h */,
 				CBE34E3C1F8B066200CFA809 /* AppDelegate.m */,
 				CBE34E3E1F8B066200CFA809 /* ViewController.h */,
@@ -138,6 +173,55 @@
 				CBE34E5F1F8B066300CFA809 /* Info.plist */,
 			);
 			path = ChangeSkinDemoUITests;
+			sourceTree = "<group>";
+		};
+		CBE34E841F8B48C500CFA809 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB5DEE1F8CB7CE000D5134 /* PrefixHeader.pch */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CBE34E851F8B48C500CFA809 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB5DEF1F8CD96F000D5134 /* DeallocBlockExecutor.h */,
+				CBEB5DF01F8CD96F000D5134 /* DeallocBlockExecutor.m */,
+				CBEB5DF11F8CD96F000D5134 /* NSObject+DeallocBlock.h */,
+				CBEB5DF21F8CD96F000D5134 /* NSObject+DeallocBlock.m */,
+				CBE34E861F8B48C500CFA809 /* NSString+UIConfig.h */,
+				CBE34E871F8B48C500CFA809 /* NSString+UIConfig.m */,
+				CBE34E881F8B48C500CFA809 /* UIColor+UIConfig.h */,
+				CBE34E891F8B48C500CFA809 /* UIColor+UIConfig.m */,
+				CBEB5DE81F8C649D000D5134 /* UIView+UIConfig.h */,
+				CBEB5DE91F8C649D000D5134 /* UIView+UIConfig.m */,
+				CBC89B8F1F8DE36C00E786B2 /* UITabBarItem+UIConfig.h */,
+				CBC89B901F8DE36C00E786B2 /* UITabBarItem+UIConfig.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CBE34E8A1F8B48C500CFA809 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBE34E8B1F8B48C500CFA809 /* OneViewController.h */,
+				CBE34E8C1F8B48C500CFA809 /* OneViewController.m */,
+				CBE34E8F1F8B48C500CFA809 /* TwoViewController.h */,
+				CBE34E901F8B48C500CFA809 /* TwoViewController.m */,
+				CBE34E8D1F8B48C500CFA809 /* ThreeViewController.h */,
+				CBE34E8E1F8B48C500CFA809 /* ThreeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CBE34E911F8B48C500CFA809 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CBE34E921F8B48C500CFA809 /* ChangeSkinManager.h */,
+				CBE34E931F8B48C500CFA809 /* ChangeSkinManager.m */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +291,7 @@
 				TargetAttributes = {
 					CBE34E341F8B066200CFA809 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = WU2WFZ2B66;
 						ProvisioningStyle = Automatic;
 					};
 					CBE34E4D1F8B066300CFA809 = {
@@ -273,9 +358,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBEB5DF41F8CD96F000D5134 /* NSObject+DeallocBlock.m in Sources */,
+				CBE34E991F8B48C500CFA809 /* ChangeSkinManager.m in Sources */,
 				CBE34E401F8B066200CFA809 /* ViewController.m in Sources */,
+				CBE34E971F8B48C500CFA809 /* ThreeViewController.m in Sources */,
+				CBE34E951F8B48C500CFA809 /* UIColor+UIConfig.m in Sources */,
+				CBE34E941F8B48C500CFA809 /* NSString+UIConfig.m in Sources */,
+				CBE34E961F8B48C500CFA809 /* OneViewController.m in Sources */,
 				CBE34E3D1F8B066200CFA809 /* AppDelegate.m in Sources */,
 				CBE34E3A1F8B066200CFA809 /* main.m in Sources */,
+				CBEB5DEA1F8C649D000D5134 /* UIView+UIConfig.m in Sources */,
+				CBE34E981F8B48C500CFA809 /* TwoViewController.m in Sources */,
+				CBEB5DF31F8CD96F000D5134 /* DeallocBlockExecutor.m in Sources */,
+				CBC89B911F8DE36C00E786B2 /* UITabBarItem+UIConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +521,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				GCC_PREFIX_HEADER = /Users/het/Desktop/ChangeSkinDemo/ChangeSkinDemo/Resource/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ChangeSkinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = het.ChangeSkinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +536,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WU2WFZ2B66;
+				GCC_PREFIX_HEADER = /Users/het/Desktop/ChangeSkinDemo/ChangeSkinDemo/Resource/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = ChangeSkinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = het.ChangeSkinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +612,7 @@
 				CBE34E641F8B066300CFA809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE34E651F8B066300CFA809 /* Build configuration list for PBXNativeTarget "ChangeSkinDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +621,7 @@
 				CBE34E671F8B066300CFA809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE34E681F8B066300CFA809 /* Build configuration list for PBXNativeTarget "ChangeSkinDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +630,7 @@
 				CBE34E6A1F8B066300CFA809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

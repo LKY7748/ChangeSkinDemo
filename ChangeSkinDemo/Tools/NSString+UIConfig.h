@@ -12,4 +12,7 @@
 
 - (NSUInteger)sam_hexValue;
 
+- (void)setStringWithKey:(NSString *)key;
++ (NSDictionary *)getDicWithKey:(NSString *)key;
+
 @end

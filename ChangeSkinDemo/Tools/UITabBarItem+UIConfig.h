@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+extern NSString *kTabBarItemKeyImageName;
+extern NSString *kTabBarItemKeySelectedImageName;
+
+extern NSString *kTabBarItemKeyColorName;
+extern NSString *kTabBarItemKeySelectedColorName;
+
 @interface UITabBarItem (UIConfig)
+
+@property (nonatomic, copy) NSDictionary *themeMap;
 
 @end

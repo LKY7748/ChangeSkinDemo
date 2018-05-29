@@ -24,7 +24,7 @@ static void *kNSObject_DeallocBlocks;
         deallocBlocks = [NSMutableArray array];
         objc_setAssociatedObject(self, &kNSObject_DeallocBlocks, deallocBlocks, OBJC_ASSOCIATION_RETAIN);
     }
-    // Check if the block is already existed
+    // 检查是否已经存在
     for (DeallocBlockExecutor *executor in deallocBlocks) {
         if (executor.deallocBlock == deallocBlock) {
             return nil;
